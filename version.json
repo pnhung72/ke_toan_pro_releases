@@ -1,5 +1,5 @@
 {
-  "phien_ban_moi_nhat": "18.6.6",
+  "phien_ban_moi_nhat": "18.6.7",
   "ngay_phat_hanh": "01/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
@@ -13,6 +13,7 @@
     "✅ Tối ưu Factory: chỉ khởi tạo parser được chọn thay vì tạo cả 3 object mỗi lần gọi",
     "✅ Thêm xác nhận trước khi nạp sao kê: tránh nhấn nhầm không rollback được",
     "✅ Tích hợp InvoiceMatcher vào luồng nạp ngân hàng: tự động đối chiếu hóa đơn sau khi nạp",
-    "✅ Thêm cơ chế chống trùng lặp sao kê: UNIQUE(trans_date, reference, bank_code)"
+    "✅ Thêm cơ chế chống trùng lặp sao kê: UNIQUE(trans_date, reference, bank_code)",
+    "🔊 Thêm hướng dẫn giọng nói khi mở tab: tự động đọc giới thiệu tính năng ở lần đầu mở mỗi tab, có thể tắt/bật trong menu Cài đặt, và bấm 'Nghe lại hướng dẫn tab này' để nghe lại bất cứ lúc nào"
   ]
 }
