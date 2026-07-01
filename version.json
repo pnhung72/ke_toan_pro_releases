@@ -1,11 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.6.4",
+  "phien_ban_moi_nhat": "18.6.5",
   "ngay_phat_hanh": "30/06/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
+    "🔒 Sửa lỗi khóa admin.key theo máy: bổ sung phương án dự phòng (PowerShell) khi lệnh wmic không khả dụng trên Windows bản mới",
     "✅ Sửa lỗi trans_date: chuẩn hóa ngày từ Excel sang TEXT YYYY-MM-DD cho cả 3 parser ACB/VCB/AGRI",
     "✅ Sửa lỗi VCB parser: tự động phát hiện dòng tiêu đề thực sự, xử lý header logo phía trên",
     "✅ Tối ưu Factory: chỉ khởi tạo parser được chọn thay vì tạo cả 3 object mỗi lần gọi",
