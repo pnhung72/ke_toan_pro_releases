@@ -1,13 +1,16 @@
 {
-  "phien_ban_moi_nhat": "18.8.0",
+  "phien_ban_moi_nhat": "18.9.0",
   "ngay_phat_hanh": "03/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "💰 Mở bán module Quản lý người dùng: trước đây chỉ dành cho Admin nội bộ, nay có thể mua thêm như một tiện ích mở rộng",
+    "🧩 Sắp xếp lại hàng tab chính: chỉ hiện 4 tab cốt lõi (Hàng hóa, Giao dịch, Hóa đơn, Thông tin thuế) để màn hình gọn hơn, không còn tràn tab",
+    "🆕 Menu mới 'Công cụ ▸ Tiện ích mở rộng': tự bật/tắt hiển thị từng tab (Dashboard, Giới thiệu, Sổ cái, Công nợ, Báo cáo, Kết chuyển, Quản lý Thuế, Nhật ký, Ngoại tệ, Email, Marketing, Phân phối, Điều hành Admin, Ngân hàng, AI Thông minh, Duyệt hóa đơn...) mà không mất dữ liệu, không phải mở lại app",
+    "💾 Trạng thái bật/tắt tab tiện ích được ghi nhớ giữa các lần mở app (lưu riêng trong app_state.json, không ảnh hưởng cấu hình 'Chọn ngành nghề' cũ)",
     "🎨 Giao diện chọn gói bản quyền rõ ràng hơn: tách riêng '🏭 Chọn ngành nghề' và '🧩 Tiện ích mở rộng' thay vì gộp chung một danh sách dài — áp dụng đồng bộ ở màn hình khách hàng, tab Admin và cửa sổ cấp license nhanh",
+    "💰 Mở bán module Quản lý người dùng: trước đây chỉ dành cho Admin nội bộ, nay có thể mua thêm như một tiện ích mở rộng",
     "🆕 Thêm module Quản lý người dùng (chỉ Admin): tạo/sửa/xóa tài khoản, đặt lại mật khẩu, phân quyền theo vai trò (Xem/Sửa/Xóa cho từng module: Sản phẩm, Hóa đơn, Giao dịch, Công nợ, Báo cáo, Người dùng), và nhật ký đăng nhập/hoạt động có thể lọc theo tài khoản",
     "🔒 Sửa lỗi bảo mật license.key: khóa công khai RSA xác minh license bị dán sai định dạng (PEM lặp dòng) khiến license hợp lệ có thể bị từ chối; đã kiểm tra lại bằng bộ test bảo mật tự động (TRIAL / ADMIN_MODE / FRAUD / PAID)",
     "✅ Sửa lỗi quét email hóa đơn: trước đây chỉ quét được 1 hộp thư (dù kết nối nhiều), nay quét đồng thời TẤT CẢ hộp thư đã kết nối trong 'Đồng bộ Hóa đơn & Sao kê'",
