@@ -21,6 +21,10 @@
     "✅ Thêm xác nhận trước khi nạp sao kê: tránh nhấn nhầm không rollback được",
     "✅ Tích hợp InvoiceMatcher vào luồng nạp ngân hàng: tự động đối chiếu hóa đơn sau khi nạp",
     "✅ Thêm cơ chế chống trùng lặp sao kê: UNIQUE(trans_date, reference, bank_code)",
-    "🔊 Thêm hướng dẫn giọng nói khi mở tab: tự động đọc giới thiệu tính năng ở lần đầu mở mỗi tab, có thể tắt/bật trong menu Cài đặt, và bấm 'Nghe lại hướng dẫn tab này' để nghe lại bất cứ lúc nào"
+    "🔊 Thêm hướng dẫn giọng nói khi mở tab: tự động đọc giới thiệu tính năng ở lần đầu mở mỗi tab, có thể tắt/bật trong menu Cài đặt, và bấm 'Nghe lại hướng dẫn tab này' để nghe lại bất cứ lúc nào",
+    "🔒 Sửa lỗi treo/crash khi Nhập hóa đơn bằng OCR: luồng xử lý AI trước đây có thể gây crash ngầm (main thread is not in main loop) khiến kết quả OCR không hiển thị; nay xử lý an toàn theo hàng đợi dữ liệu, không còn crash",
+    "✅ Sửa lỗi OCR không tính được 'Số tiền': trước đây luôn hiển thị 0 dù đọc đúng nội dung hóa đơn; nay tự nhận diện đúng dòng 'Tổng cộng' / 'Thuế GTGT' để tính chính xác Số tiền, Thuế, Tổng cộng",
+    "🎨 Sửa hiển thị số tiền sau OCR: định dạng lại theo chuẩn VN (ví dụ 476.000) thay vì hiện số thập phân dư (476000.0)",
+    "🎨 Sửa bố cục cửa sổ Nhập hóa đơn bằng OCR: form thông tin và nút 'Lưu vào hàng đợi'/'Đóng' luôn hiển thị đầy đủ, không còn bị đẩy khỏi màn hình khi nội dung OCR dài; có thể kéo lớn cửa sổ để xem rộng hơn"
   ]
 }
