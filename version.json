@@ -6,6 +6,7 @@
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
+    "🆕 Thêm nút 'Xóa vĩnh viễn' trong tab 'Duyệt hóa đơn': cho phép xóa hẳn hóa đơn nháp/test hoặc hóa đơn đã 'Từ chối' khỏi hàng đợi (có xác nhận trước khi xóa, không thể hoàn tác) — trước đây phải mở DB Browser thủ công mới xóa được; đồng thời danh sách nay hiển thị cả hóa đơn 'pending' và 'rejected' để dễ chọn xóa",
     "🧩 Sắp xếp lại hàng tab chính: chỉ hiện 4 tab cốt lõi (Hàng hóa, Giao dịch, Hóa đơn, Thông tin thuế) để màn hình gọn hơn, không còn tràn tab",
     "🆕 Menu mới 'Công cụ ▸ Tiện ích mở rộng': tự bật/tắt hiển thị từng tab (Dashboard, Giới thiệu, Sổ cái, Công nợ, Báo cáo, Kết chuyển, Quản lý Thuế, Nhật ký, Ngoại tệ, Email, Marketing, Phân phối, Điều hành Admin, Ngân hàng, AI Thông minh, Duyệt hóa đơn...) mà không mất dữ liệu, không phải mở lại app",
     "💾 Trạng thái bật/tắt tab tiện ích được ghi nhớ giữa các lần mở app (lưu riêng trong app_state.json, không ảnh hưởng cấu hình 'Chọn ngành nghề' cũ)",
