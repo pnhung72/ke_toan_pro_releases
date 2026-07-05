@@ -1,16 +1,17 @@
 {
-  "phien_ban_moi_nhat": "18.10.0",
-  "ngay_phat_hanh": "04/07/2026",
+  "phien_ban_moi_nhat": "18.11.0",
+  "ngay_phat_hanh": "05/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "🔒 Sửa lỗ hổng bảo mật quan trọng ở tab 'AI Thông minh': trước đây tính năng AI được mở khóa qua has_ai_feature() — hàm đọc thẳng field 'features' trong license.key mà KHÔNG xác minh chữ ký số, nên chỉ cần sửa file license.key bằng Notepad là có AI miễn phí vĩnh viễn; nay chuyển hẳn sang is_module_licensed('ai_analytics'), đi qua cơ chế xác minh RSA-PSS chuẩn của license_manager.py giống các module khác (Marketing, Phân phối, Đồng bộ đám mây, Ngân hàng, Quản lý người dùng)",
-    "🧹 Dọn dẹp code: gỡ import has_ai_feature không còn dùng đến trong main_window.py, đã rà soát lại toàn bộ project xác nhận hàm này không còn được gọi ở bất kỳ đâu"
+    "🔒 Sửa lỗi is_full_version() (main_window.py) lệch field 'expiry' vs 'expiry_date': hàm cũ gọi verify_license() kiểu HMAC cũ và đọc field 'expiry', trong khi license_manager.export_license_file() (nguồn cấp license thật) ghi field 'expiry_date' và ký RSA-PSS — khiến khách hàng đã trả tiền, dán license.key hợp lệ vẫn bị báo lỗi và popup đòi license lặp lại mỗi 5 phút. Nay is_full_version() dùng đúng verify_license() từ license_manager.py, unpack đúng tuple (is_valid, message) thay vì return thẳng tuple (mọi tuple non-empty đều truthy trong Python, kể cả (False, \"hết hạn\"), nên trước đây luôn bị coi là hợp lệ).",
+    "🌾 Thêm module mới: Thu mua nông sản (Cà phê, Hồ tiêu) — nhập giá tham khảo, ghi nhận giao dịch thu mua, biểu đồ lịch sử giá.",
+    "🌱 Thêm module mới: Sản xuất phân bón — quy trình Nguyên liệu → Mẻ sản xuất → Bán thành phẩm, quản lý tồn kho nguyên liệu theo giá vốn bình quân gia quyền.",
+    "☕ Thêm module mới: Chế biến cà phê — quy trình Nhân cà phê (nguyên liệu) → Mẻ rang xay → Thành phẩm → Bán, tự tính % hao hụt và giá thành theo mẻ."
   ],
   "ghi_chu_noi_bo_chua_xu_ly": [
-    "⚠️ is_full_version() (dòng ~1650 và ~2213 main_window.py) vẫn lệch field 'expiry' vs 'expiry_date' → khách hàng dán license.key hợp lệ vẫn báo lỗi, popup đòi license lặp lại mỗi 5 phút — CẦN SỬA Ở BẢN KẾ TIẾP, chưa đưa vào 18.10.0",
-    "⚠️ Cần xác nhận: utils/license_helper.py (hàm get_machine_id thứ 3, khác với license.py và license_manager.py) và MASTER_ID hardcode trong main_window.py (dòng ~1352) — chưa quyết định giữ hay gỡ"
+    "⚠️ Cần xác nhận: utils/license_helper.py (hàm get_machine_id thứ 3, khác với license.py và license_manager.py) và MASTER_ID hardcode trong main_window.py (dòng ~1390) — chưa quyết định giữ hay gỡ."
   ]
 }
