@@ -1,5 +1,5 @@
 {
-  "phien_ban": "1.0.50",
+  "phien_ban": "1.0.52",
   "ngay_cap_nhat": "2026-07-05",
   "can_cu_phap_ly": "99/2025/TT-BTC",
   "mo_ta": "Bảng Cân Đối Kế Toán (B01-DN)",
@@ -32,9 +32,45 @@
       ]
     },
     {
+      "ma": "140",
+      "ten": "Hàng tồn kho",
+      "cong_thuc": "DU_NO(152) + DU_NO(154) + DU_NO(155)",
+      "loai_rule": "BALANCE",
+      "ap_dung_cho": [
+        "chung"
+      ]
+    },
+    {
+      "ma": "270",
+      "ten": "TỔNG CỘNG TÀI SẢN",
+      "cong_thuc": "DU_NO(111) + DU_NO(112) + DU_NO(113) + DU_NO(121) - DU_CO(129) + DU_NO(131) + DU_NO(138) + DU_NO(152) + DU_NO(154) + DU_NO(155)",
+      "loai_rule": "BALANCE",
+      "ap_dung_cho": [
+        "chung"
+      ]
+    },
+    {
       "ma": "300",
       "ten": "NỢ PHẢI TRẢ",
       "cong_thuc": "DU_CO(331) + DU_CO(333) + DU_CO(334)",
+      "loai_rule": "BALANCE",
+      "ap_dung_cho": [
+        "chung"
+      ]
+    },
+    {
+      "ma": "400",
+      "ten": "VỐN CHỦ SỞ HỮU",
+      "cong_thuc": "DU_NO(111) + DU_NO(112) + DU_NO(113) + DU_NO(121) - DU_CO(129) + DU_NO(131) + DU_NO(138) + DU_NO(152) + DU_NO(154) + DU_NO(155) - DU_CO(331) - DU_CO(333) - DU_CO(334)",
+      "loai_rule": "BALANCE",
+      "ap_dung_cho": [
+        "chung"
+      ]
+    },
+    {
+      "ma": "440",
+      "ten": "TỔNG CỘNG NGUỒN VỐN",
+      "cong_thuc": "DU_CO(331) + DU_CO(333) + DU_CO(334) + DU_NO(111) + DU_NO(112) + DU_NO(113) + DU_NO(121) - DU_CO(129) + DU_NO(131) + DU_NO(138) + DU_NO(152) + DU_NO(154) + DU_NO(155) - DU_CO(331) - DU_CO(333) - DU_CO(334)",
       "loai_rule": "BALANCE",
       "ap_dung_cho": [
         "chung"
