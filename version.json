@@ -1,5 +1,5 @@
 {
-  "phien_ban_moi_nhat": "18.11.0",
+  "phien_ban_moi_nhat": "18.11.1",
   "ngay_phat_hanh": "05/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
@@ -9,9 +9,16 @@
     "🔒 Sửa lỗi is_full_version() (main_window.py) lệch field 'expiry' vs 'expiry_date': hàm cũ gọi verify_license() kiểu HMAC cũ và đọc field 'expiry', trong khi license_manager.export_license_file() (nguồn cấp license thật) ghi field 'expiry_date' và ký RSA-PSS — khiến khách hàng đã trả tiền, dán license.key hợp lệ vẫn bị báo lỗi và popup đòi license lặp lại mỗi 5 phút. Nay is_full_version() dùng đúng verify_license() từ license_manager.py, unpack đúng tuple (is_valid, message) thay vì return thẳng tuple (mọi tuple non-empty đều truthy trong Python, kể cả (False, \"hết hạn\"), nên trước đây luôn bị coi là hợp lệ).",
     "🌾 Thêm module mới: Thu mua nông sản (Cà phê, Hồ tiêu) — nhập giá tham khảo, ghi nhận giao dịch thu mua, biểu đồ lịch sử giá.",
     "🌱 Thêm module mới: Sản xuất phân bón — quy trình Nguyên liệu → Mẻ sản xuất → Bán thành phẩm, quản lý tồn kho nguyên liệu theo giá vốn bình quân gia quyền.",
-    "☕ Thêm module mới: Chế biến cà phê — quy trình Nhân cà phê (nguyên liệu) → Mẻ rang xay → Thành phẩm → Bán, tự tính % hao hụt và giá thành theo mẻ."
+    "☕ Thêm module mới: Chế biến cà phê — quy trình Nhân cà phê (nguyên liệu) → Mẻ rang xay → Thành phẩm → Bán, tự tính % hao hụt và giá thành theo mẻ.",
+    "📊 Thêm DeltaFormulaEngine xử lý loai_rule=DELTA trong business_rules.json, phục vụ các chỉ tiêu Lưu Chuyển Tiền Tệ gián tiếp (chênh lệch số dư lũy kế cuối kỳ - đầu kỳ, lọc theo fiscal_year/period trong journal_entries/journal_details). Đăng ký qua BusinessRuleGateway._register_default_engines(), không sửa logic dispatch sẵn có.",
+    "🧭 xuat_bao_cao_tai_chinh() (report_engine.py) nay nhận thêm tham số tùy chọn fiscal_year/period; nếu không truyền (giữ tương thích ngược với report_tab.py hiện tại), tự động dò kỳ gần nhất có phát sinh thật trong journal_entries làm mặc định.",
+    "✅ Đã kiểm chứng: engine tính đúng khớp với truy vấn SQL đối chiếu tay, và đã xác nhận đúng qua UI thật (tab Bảng CĐKT hiển thị đúng số liệu DELTA).",
+    "🧹 Rà soát lại nghi vấn 'lỗi encoding tiếng Việt' trong business_rules.json: xác nhận đây KHÔNG phải lỗi dữ liệu — file lưu đúng UTF-8, chỉ do PowerShell (lệnh type/Get-Content mặc định) hiển thị sai code page. Ứng dụng Python đọc đúng bằng encoding=\"utf-8\" nên không bị ảnh hưởng. Không cần sửa script sinh file."
   ],
   "ghi_chu_noi_bo_chua_xu_ly": [
-    "⚠️ Cần xác nhận: utils/license_helper.py (hàm get_machine_id thứ 3, khác với license.py và license_manager.py) và MASTER_ID hardcode trong main_window.py (dòng ~1390) — chưa quyết định giữ hay gỡ."
+    "⚠️ Cần xác nhận: utils/license_helper.py (hàm get_machine_id thứ 3, khác với license.py và license_manager.py) và MASTER_ID hardcode trong main_window.py (dòng ~1390) — chưa quyết định giữ hay gỡ.",
+    "⚠️ Cột 'Kỳ trước' trong tab Bảng CĐKT (report_tab.py, load_bang_can_doi_json) vẫn đang hardcode '0.00' — chưa gọi DeltaFormulaEngine/xuat_bao_cao_tai_chinh(kỳ trước) để điền số liệu thật.",
+    "⚠️ configs_dist/business_rules.json (nguồn build .exe) chưa được đồng bộ với configs/business_rules.json (bản dev, đã có chỉ tiêu DELTA mẫu bị xóa sau khi test) — cần đối chiếu trước khi build/push GitHub.",
+    "⚠️ delta_formula_engine.py đã di chuyển vào business_rules/engines/ — cần kiểm tra không còn bản trùng ở thư mục gốc D:\\ke_toan_pro_v3\\delta_formula_engine.py."
   ]
 }
