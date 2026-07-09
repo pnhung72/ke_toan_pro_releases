@@ -1,11 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.11.1",
-  "ngay_phat_hanh": "05/07/2026",
+  "phien_ban_moi_nhat": "18.11.2",
+  "ngay_phat_hanh": "09/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
+    "🖨️ Sửa lỗi nút \"In báo cáo\" (report_tab.py, print_all_reports) không phản hồi khi bấm: hàm gọi show_print_preview(..., self.frame) trong khi self.frame không còn tồn tại sau khi ReportTab chuyển sang kế thừa trực tiếp ttk.Frame (self chính là frame) — Tkinter nuốt AttributeError trong callback nút bấm nên không hiện lỗi/hộp thoại, chỉ im lặng không làm gì. Đã sửa thành show_print_preview(..., self). Đồng thời bổ sung nội dung Bảng CĐKT (B01-DN) vào bản in tổng hợp — trước đây print_all_reports() chỉ in Tổng quan/Danh mục/Quý, không có dữ liệu từ tab Bảng CĐKT mới thêm.",
     "🔒 Sửa lỗi is_full_version() (main_window.py) lệch field 'expiry' vs 'expiry_date': hàm cũ gọi verify_license() kiểu HMAC cũ và đọc field 'expiry', trong khi license_manager.export_license_file() (nguồn cấp license thật) ghi field 'expiry_date' và ký RSA-PSS — khiến khách hàng đã trả tiền, dán license.key hợp lệ vẫn bị báo lỗi và popup đòi license lặp lại mỗi 5 phút. Nay is_full_version() dùng đúng verify_license() từ license_manager.py, unpack đúng tuple (is_valid, message) thay vì return thẳng tuple (mọi tuple non-empty đều truthy trong Python, kể cả (False, \"hết hạn\"), nên trước đây luôn bị coi là hợp lệ).",
     "🌾 Thêm module mới: Thu mua nông sản (Cà phê, Hồ tiêu) — nhập giá tham khảo, ghi nhận giao dịch thu mua, biểu đồ lịch sử giá.",
     "🌱 Thêm module mới: Sản xuất phân bón — quy trình Nguyên liệu → Mẻ sản xuất → Bán thành phẩm, quản lý tồn kho nguyên liệu theo giá vốn bình quân gia quyền.",
