@@ -11,5 +11,5 @@
   "📦 Sửa lỗi phân loại hàng tồn kho: giá vốn hàng bán trước đây bị ghi nhầm vào nhóm tài khoản dành cho hàng hóa mua đi bán lại, trong khi đây là cơ sở sản xuất. Đã điều chỉnh để chỉ tiêu 'Hàng tồn kho' trên Bảng cân đối phản ánh đúng bản chất sản phẩm tự sản xuất.",
   "📊 Bổ sung số liệu tồn kho đầu kỳ còn thiếu, giúp Bảng cân đối kế toán phản ánh đúng giá trị tài sản hiện có.",
   "🧹 Rà soát và dọn dẹp một số bút toán trùng lặp/thiếu sót còn sót lại trong sổ cái, đảm bảo số dư các tài khoản khớp đúng thực tế."
-  ],
+  ]
 }
