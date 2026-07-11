@@ -1,15 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.14.0",
-  "ngay_phat_hanh": "10/07/2026",
+  "phien_ban_moi_nhat": "18.15.0",
+  "ngay_phat_hanh": "11/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🧾 Sửa lỗi nghiêm trọng: hóa đơn bán hàng trước đây không được tự động ghi vào sổ cái, khiến Bảng cân đối kế toán và báo cáo Thu/Chi/Lãi bị thiếu hoặc sai lệch. Nay mọi hóa đơn khi tạo mới, chỉnh sửa hoặc xóa đều được ghi/cập nhật sổ cái đầy đủ và chính xác.",
-  "💰 Sửa lỗi ghi nhận công nợ: một số thao tác liên quan đến công nợ khách hàng trước đây không cập nhật đúng vào sổ cái, có thể khiến số dư 'Phải thu khách hàng' hiển thị sai. Đã khắc phục để số liệu công nợ luôn khớp với sổ sách.",
-  "📦 Sửa lỗi phân loại hàng tồn kho: giá vốn hàng bán trước đây bị ghi nhầm vào nhóm tài khoản dành cho hàng hóa mua đi bán lại, trong khi đây là cơ sở sản xuất. Đã điều chỉnh để chỉ tiêu 'Hàng tồn kho' trên Bảng cân đối phản ánh đúng bản chất sản phẩm tự sản xuất.",
-  "📊 Bổ sung số liệu tồn kho đầu kỳ còn thiếu, giúp Bảng cân đối kế toán phản ánh đúng giá trị tài sản hiện có.",
-  "🧹 Rà soát và dọn dẹp một số bút toán trùng lặp/thiếu sót còn sót lại trong sổ cái, đảm bảo số dư các tài khoản khớp đúng thực tế."
+  "🧾 Bổ sung tiện ích mới 'Bảng lương nâng cao': chấm công theo ngày cho từng nhân viên, tự động tính lương Gross/Net hàng tháng kèm BHXH (8%), BHYT (1,5%), BHTN (1%) và thuế TNCN theo biểu lũy tiến 5 bậc, hỗ trợ chốt bảng lương và xuất Excel.",
+  "🎨 Đồng bộ giao diện tiện ích mới theo đúng chuẩn font chữ, màu sắc và kiểu nút đang dùng chung toàn phần mềm."
   ]
 }
