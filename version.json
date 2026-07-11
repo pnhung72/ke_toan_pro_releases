@@ -1,12 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.15.0",
+  "phien_ban_moi_nhat": "18.15.1",
   "ngay_phat_hanh": "11/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🧾 Bổ sung tiện ích mới 'Bảng lương nâng cao': chấm công theo ngày cho từng nhân viên, tự động tính lương Gross/Net hàng tháng kèm BHXH (8%), BHYT (1,5%), BHTN (1%) và thuế TNCN theo biểu lũy tiến 5 bậc, hỗ trợ chốt bảng lương và xuất Excel.",
-  "🎨 Đồng bộ giao diện tiện ích mới theo đúng chuẩn font chữ, màu sắc và kiểu nút đang dùng chung toàn phần mềm."
+  "💸 Bổ sung tính năng Khuyến mãi/Chiết khấu linh hoạt cho hóa đơn: chọn giảm theo % hoặc số tiền cố định, tự động trừ trước khi tính thuế GTGT đúng quy định, đồng bộ hiển thị trên danh sách hóa đơn, hóa đơn in thường, hóa đơn GTGT chuẩn mẫu Bộ Tài chính (01/HĐ-GTGT) và tab Báo cáo → Tổng quan (doanh thu gộp/thuần).",
+  "🐛 Sửa lỗi: form tạo hóa đơn không tự làm mới ô Khuyến mãi sau khi lưu, có thể khiến hóa đơn kế tiếp bị áp nhầm khuyến mãi của hóa đơn trước đó."
   ]
 }
