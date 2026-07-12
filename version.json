@@ -1,12 +1,14 @@
 {
-  "phien_ban_moi_nhat": "18.15.1",
-  "ngay_phat_hanh": "11/07/2026",
+  "phien_ban_moi_nhat": "18.16.0",
+  "ngay_phat_hanh": "12/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "💸 Bổ sung tính năng Khuyến mãi/Chiết khấu linh hoạt cho hóa đơn: chọn giảm theo % hoặc số tiền cố định, tự động trừ trước khi tính thuế GTGT đúng quy định, đồng bộ hiển thị trên danh sách hóa đơn, hóa đơn in thường, hóa đơn GTGT chuẩn mẫu Bộ Tài chính (01/HĐ-GTGT) và tab Báo cáo → Tổng quan (doanh thu gộp/thuần).",
-  "🐛 Sửa lỗi: form tạo hóa đơn không tự làm mới ô Khuyến mãi sau khi lưu, có thể khiến hóa đơn kế tiếp bị áp nhầm khuyến mãi của hóa đơn trước đó."
+  "🏷️ Ra mắt module Quản lý khuyến mãi (tiện ích mở rộng): tạo/sửa/xóa chương trình khuyến mãi với form nhập linh động - hỗ trợ giảm theo % hoặc số tiền cố định, khuyến mãi 'mua N tặng M' (vd mua 10 tặng 1), áp dụng cho từng sản phẩm hàng hóa cụ thể hoặc toàn bộ, có ràng buộc theo đơn hàng/lũy kế/khách mới.",
+  "🧾 Tích hợp gợi ý khuyến mãi tự động trong tab Hóa đơn: khi chọn sản phẩm đang có chương trình khuyến mãi, hệ thống tự tra và gợi ý ngay trên form, bấm 'Áp dụng' để đưa vào hóa đơn - không tự động ghi đè, giữ nguyên quyền quyết định nhập tay như trước.",
+  "🐛 Sửa lỗi: form tạo hóa đơn không tự làm mới ô Khuyến mãi sau khi lưu, có thể khiến hóa đơn kế tiếp bị áp nhầm khuyến mãi của hóa đơn trước đó.",
+  "🐛 Sửa lỗi giao diện: icon tab 'Quản lý khuyến mãi' trong menu Công cụ ▸ Tiện ích mở rộng bị lệch khoảng cách so với các dòng khác."
   ]
 }
