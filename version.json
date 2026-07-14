@@ -1,15 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.17.0",
-  "ngay_phat_hanh": "12/07/2026",
+  "phien_ban_moi_nhat": "18.17.1",
+  "ngay_phat_hanh": "14/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🏷️ Ra mắt module Quản lý khách hàng nâng cao (tiện ích mở rộng): quản lý danh sách khách hàng với mã KH tự sinh, thông tin liên hệ, mã số thuế, ngày sinh, hạn mức nợ và ghi chú riêng cho từng khách.",
-  "👥 Thêm phân nhóm khách hàng: tạo/xóa nhóm tùy ý và lọc nhanh danh sách khách hàng theo từng nhóm ngay trên tab.",
-  "📈 Tự động theo dõi tổng tiền đã mua, số lần mua và ngày mua gần nhất của mỗi khách hàng; xem lại lịch sử từng hóa đơn đã mua ngay trong tab.",
-  "⏰ Thêm tính năng 'Khách cần chăm sóc': lọc ra các khách hàng đã từng mua nhưng lâu chưa quay lại (tùy chỉnh số ngày), giúp chủ động nhắc chăm sóc và giữ chân khách.",
-  "🔑 Tính năng mới được kích hoạt qua Công cụ ▸ Quản lý bản quyền (mua thêm nếu chưa có) và bật/tắt hiển thị qua Công cụ ▸ 🧩 Tiện ích mở rộng."
+  "🔒 Khắc phục lỗi hiển thị sai Mã máy trong màn hình Kích hoạt bản quyền, từng khiến một số license hợp lệ bị báo nhầm 'không dành cho máy này'.",
+  "✅ Cải thiện độ chính xác khi xác thực bản quyền, giúp quá trình kích hoạt và gia hạn diễn ra suôn sẻ hơn."
   ]
 }
