@@ -1,11 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.17.1",
-  "ngay_phat_hanh": "14/07/2026",
+  "phien_ban_moi_nhat": "18.17.2",
+  "ngay_phat_hanh": "16/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
+  "🎯 Khắc phục lỗi bố cục bị lệch sang trái ở 5 tab thuộc mục 'Thông tin thuế' (Thông tin hộ kinh doanh, Tài khoản ngân hàng, Sổ doanh thu S1a-HKD, Thông báo doanh thu, Tờ khai thuế 01/CNKD) — nay nội dung tự động căn giữa và giãn đều theo kích thước cửa sổ.",
   "🔒 Khắc phục lỗi hiển thị sai Mã máy trong màn hình Kích hoạt bản quyền, từng khiến một số license hợp lệ bị báo nhầm 'không dành cho máy này'.",
   "✅ Cải thiện độ chính xác khi xác thực bản quyền, giúp quá trình kích hoạt và gia hạn diễn ra suôn sẻ hơn."
   ]
