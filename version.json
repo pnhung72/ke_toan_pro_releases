@@ -1,11 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.17.3",
-  "ngay_phat_hanh": "17/07/2026",
+  "phien_ban_moi_nhat": "18.17.4",
+  "ngay_phat_hanh": "18/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
+  "💊 Thêm tiện ích mới 'Quản Lý Phân Phối Dược Phẩm' trong mục Công cụ → Chọn ngành nghề (Kích hoạt Tab) — quản lý đại lý theo tỉnh, sản phẩm thuốc, lô hàng/hạn dùng, đơn hàng và công nợ.",
+  "🔑 Bổ sung checkbox 'Quản Lý Phân Phối Dược Phẩm' vào màn hình Quản lý bản quyền (khung 'Chọn ngành nghề'), giá 1.200.000đ/năm.",
   "🖨️ Bỏ nút 'In' bị trùng chức năng ở tab Hóa đơn (trùng với nút 'In hóa đơn'), giao diện thanh thao tác gọn hơn.",
   "🎨 Khắc phục lỗi khoảng cách quá rộng giữa biểu tượng và chữ ở các nút 'In hóa đơn', 'In nhãn', 'Xóa' (tab Hóa đơn), 'Xóa' (tab Giao dịch) và nhãn 'Đã khuyến mãi' (tab Báo cáo).",
   "🎯 Khắc phục lỗi bố cục bị lệch sang trái ở 5 tab thuộc mục 'Thông tin thuế' (Thông tin hộ kinh doanh, Tài khoản ngân hàng, Sổ doanh thu S1a-HKD, Thông báo doanh thu, Tờ khai thuế 01/CNKD) — nay nội dung tự động căn giữa và giãn đều theo kích thước cửa sổ.",
