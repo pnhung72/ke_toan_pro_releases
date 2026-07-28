@@ -1,11 +1,16 @@
 {
-  "phien_ban_moi_nhat": "18.18.0",
-  "ngay_phat_hanh": "22/07/2026",
+  "phien_ban_moi_nhat": "18.19.0",
+  "ngay_phat_hanh": "28/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": true,
   "ghi_chu_phien_ban": [
+  "🚨 [QUAN TRỌNG] Khắc phục lỗi treo/đơ ứng dụng khi đóng phần mềm nếu sao lưu cục bộ hoặc đồng bộ đám mây chạy chậm — nay ứng dụng đóng ngay lập tức, sao lưu tiếp tục chạy ngầm phía sau.",
+  "🚨 [QUAN TRỌNG] Khắc phục lỗi có thể gây crash khi bấm 'Xem chi tiết' quý trong tab Báo cáo nếu truy vấn dữ liệu hóa đơn gặp lỗi.",
+  "🐛 Khắc phục lỗi hiếm gặp báo nhầm 'Không thể xử lý XML' ngay sau khi nạp hóa đơn XML đã thành công, gây hiểu lầm và dễ nạp trùng dữ liệu.",
+  "🐛 Cải thiện ghi nhận lỗi khi tải danh sách chi phí theo quý trong tab Báo cáo (trước đây lỗi bị bỏ qua âm thầm, không có dấu vết để tra cứu).",
+  "🧹 Dọn dẹp code nội bộ trùng lặp ở màn hình chính và tab Thông tin hộ kinh doanh, giúp ứng dụng ổn định và dễ bảo trì hơn.",
   "🚨 [QUAN TRỌNG] Khắc phục lỗi treo/crash khi in Thông báo doanh thu mẫu 01/TKN-CNKD (lỗi KeyError khiến chức năng này không dùng được).",
   "📋 Cập nhật viện dẫn đúng Thông tư 89/2026/TT-BTC trên các mẫu 01/CNKD và 01/TKN-CNKD (trước đây in nhầm số thông tư).",
   "💰 Đồng bộ ngưỡng miễn thuế GTGT/TNCN (1 tỷ đồng/năm theo Nghị định 141/2026/NĐ-CP) xuyên suốt toàn bộ hệ thống — không còn nơi hiển thị lệch (500 triệu/1 tỷ) giữa các màn hình.",
