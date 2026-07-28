@@ -1,29 +1,15 @@
 {
-  "phien_ban_moi_nhat": "18.19.0",
+  "phien_ban_moi_nhat": "18.20.0",
   "ngay_phat_hanh": "28/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": true,
   "ghi_chu_phien_ban": [
-  "🚨 [QUAN TRỌNG] Khắc phục lỗi treo/đơ ứng dụng khi đóng phần mềm nếu sao lưu cục bộ hoặc đồng bộ đám mây chạy chậm — nay ứng dụng đóng ngay lập tức, sao lưu tiếp tục chạy ngầm phía sau.",
-  "🚨 [QUAN TRỌNG] Khắc phục lỗi có thể gây crash khi bấm 'Xem chi tiết' quý trong tab Báo cáo nếu truy vấn dữ liệu hóa đơn gặp lỗi.",
-  "🐛 Khắc phục lỗi hiếm gặp báo nhầm 'Không thể xử lý XML' ngay sau khi nạp hóa đơn XML đã thành công, gây hiểu lầm và dễ nạp trùng dữ liệu.",
-  "🐛 Cải thiện ghi nhận lỗi khi tải danh sách chi phí theo quý trong tab Báo cáo (trước đây lỗi bị bỏ qua âm thầm, không có dấu vết để tra cứu).",
-  "🧹 Dọn dẹp code nội bộ trùng lặp ở màn hình chính và tab Thông tin hộ kinh doanh, giúp ứng dụng ổn định và dễ bảo trì hơn.",
-  "🚨 [QUAN TRỌNG] Khắc phục lỗi treo/crash khi in Thông báo doanh thu mẫu 01/TKN-CNKD (lỗi KeyError khiến chức năng này không dùng được).",
-  "📋 Cập nhật viện dẫn đúng Thông tư 89/2026/TT-BTC trên các mẫu 01/CNKD và 01/TKN-CNKD (trước đây in nhầm số thông tư).",
-  "💰 Đồng bộ ngưỡng miễn thuế GTGT/TNCN (1 tỷ đồng/năm theo Nghị định 141/2026/NĐ-CP) xuyên suốt toàn bộ hệ thống — không còn nơi hiển thị lệch (500 triệu/1 tỷ) giữa các màn hình.",
-  "🧮 Sửa lỗi tính thuế TNCN cho hộ kinh doanh Nhóm 3 (3 tỷ - 50 tỷ): tính đúng lũy tiến từng phần theo năm thay vì áp nhầm bậc thuế năm cho thu nhập theo quý.",
-  "🏷️ Tab 'Kiểm tra tuân thủ pháp lý về thuế': bổ sung lựa chọn ngành nghề kinh doanh để hiển thị đúng tỷ lệ % thuế GTGT/TNCN theo từng ngành thay vì con số cố định.",
-  "⏰ Tab 'Kiểm tra tuân thủ pháp lý về thuế': hạn nộp các mẫu biểu (01/BK-STK, 01/TKN-CNKD, 01/CNKD) nay tính động theo năm hiện tại, khắc phục lỗi báo 'quá hạn' sai sau khi sang năm mới.",
-  "🧹 Dọn dẹp các căn cứ pháp lý đã lỗi thời (Thông tư 18/2026, TT40/2021...) trong ghi chú nội bộ mã nguồn để dễ tra cứu, đối chiếu sau này.",
-  "💊 Thêm tiện ích mới 'Quản Lý Phân Phối Dược Phẩm' trong mục Công cụ → Chọn ngành nghề (Kích hoạt Tab) — quản lý đại lý theo tỉnh, sản phẩm thuốc, lô hàng/hạn dùng, đơn hàng và công nợ.",
-  "🔑 Bổ sung checkbox 'Quản Lý Phân Phối Dược Phẩm' vào màn hình Quản lý bản quyền (khung 'Chọn ngành nghề'), giá 1.200.000đ/năm.",
-  "🖨️ Bỏ nút 'In' bị trùng chức năng ở tab Hóa đơn (trùng với nút 'In hóa đơn'), giao diện thanh thao tác gọn hơn.",
-  "🎨 Khắc phục lỗi khoảng cách quá rộng giữa biểu tượng và chữ ở các nút 'In hóa đơn', 'In nhãn', 'Xóa' (tab Hóa đơn), 'Xóa' (tab Giao dịch) và nhãn 'Đã khuyến mãi' (tab Báo cáo).",
-  "🎯 Khắc phục lỗi bố cục bị lệch sang trái ở 5 tab thuộc mục 'Thông tin thuế' (Thông tin hộ kinh doanh, Tài khoản ngân hàng, Sổ doanh thu S1a-HKD, Thông báo doanh thu, Tờ khai thuế 01/CNKD) — nay nội dung tự động căn giữa và giãn đều theo kích thước cửa sổ.",
-  "🔒 Khắc phục lỗi hiển thị sai Mã máy trong màn hình Kích hoạt bản quyền, từng khiến một số license hợp lệ bị báo nhầm 'không dành cho máy này'.",
-  "✅ Cải thiện độ chính xác khi xác thực bản quyền, giúp quá trình kích hoạt và gia hạn diễn ra suôn sẻ hơn."
+  "🚨 [QUAN TRỌNG] Khắc phục lỗi gốc gây thu nợ trùng lặp nhiều lần cho cùng một khách hàng (tab Nợ): trước đây, với khoản nợ tính từ hóa đơn chưa thanh toán đủ (chưa có dòng riêng trong sổ nợ), thao tác 'Ghi nhận trả nợ' không cập nhật đúng nguồn — khiến màn hình vẫn hiển thị còn nợ dù đã thu tiền, dễ dẫn đến thu trùng nhiều lần cho cùng một khoản.",
+  "🚨 [QUAN TRỌNG] Khắc phục lỗi bút toán sổ cái bị trùng/rác khi sửa lại hóa đơn: trước đây chỉ xóa được 1 bút toán cũ gắn với hóa đơn, bỏ sót các bút toán khác (ví dụ bút toán giá vốn ghi tách riêng) — gây ghi trùng doanh thu, tiền mặt và giá vốn hàng bán mỗi lần hóa đơn được sửa lại.",
+  "🔔 Thêm cảnh báo khi sửa hóa đơn của khách hàng đang có khoản 'Thu nợ' ghi qua tab Nợ chưa được đối chiếu với hóa đơn cụ thể — giúp tránh vô tình ghi trùng doanh thu/tiền mặt khi chuyển hóa đơn sang trạng thái đã thanh toán.",
+  "🧮 Bổ sung tài khoản kế toán 155 (Thành phẩm) vào danh mục tài khoản hợp lệ của hệ thống bút toán — trước đây bị thiếu dù đã được sử dụng thực tế cho giá vốn hàng bán, gây lỗi khi xử lý một số thao tác liên quan đến sổ cái.",
+  "🧹 Rà soát và cân đối lại toàn bộ Tài khoản 131 (Phải thu khách hàng) trong dữ liệu hiện có, xử lý dứt điểm các bút toán trùng lặp phát sinh từ lỗi thu nợ nêu trên — không làm mất dữ liệu, mọi bút toán gốc được giữ nguyên để đối chiếu, chỉ bổ sung bút toán điều chỉnh đúng chuẩn kế toán."
   ]
 }
