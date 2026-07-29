@@ -1,15 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.20.0",
-  "ngay_phat_hanh": "28/07/2026",
+  "phien_ban_moi_nhat": "18.21.0",
+  "ngay_phat_hanh": "29/07/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
-  "canh_bao_bat_buoc": true,
+  "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🚨 [QUAN TRỌNG] Khắc phục lỗi gốc gây thu nợ trùng lặp nhiều lần cho cùng một khách hàng (tab Nợ): trước đây, với khoản nợ tính từ hóa đơn chưa thanh toán đủ (chưa có dòng riêng trong sổ nợ), thao tác 'Ghi nhận trả nợ' không cập nhật đúng nguồn — khiến màn hình vẫn hiển thị còn nợ dù đã thu tiền, dễ dẫn đến thu trùng nhiều lần cho cùng một khoản.",
-  "🚨 [QUAN TRỌNG] Khắc phục lỗi bút toán sổ cái bị trùng/rác khi sửa lại hóa đơn: trước đây chỉ xóa được 1 bút toán cũ gắn với hóa đơn, bỏ sót các bút toán khác (ví dụ bút toán giá vốn ghi tách riêng) — gây ghi trùng doanh thu, tiền mặt và giá vốn hàng bán mỗi lần hóa đơn được sửa lại.",
-  "🔔 Thêm cảnh báo khi sửa hóa đơn của khách hàng đang có khoản 'Thu nợ' ghi qua tab Nợ chưa được đối chiếu với hóa đơn cụ thể — giúp tránh vô tình ghi trùng doanh thu/tiền mặt khi chuyển hóa đơn sang trạng thái đã thanh toán.",
-  "🧮 Bổ sung tài khoản kế toán 155 (Thành phẩm) vào danh mục tài khoản hợp lệ của hệ thống bút toán — trước đây bị thiếu dù đã được sử dụng thực tế cho giá vốn hàng bán, gây lỗi khi xử lý một số thao tác liên quan đến sổ cái.",
-  "🧹 Rà soát và cân đối lại toàn bộ Tài khoản 131 (Phải thu khách hàng) trong dữ liệu hiện có, xử lý dứt điểm các bút toán trùng lặp phát sinh từ lỗi thu nợ nêu trên — không làm mất dữ liệu, mọi bút toán gốc được giữ nguyên để đối chiếu, chỉ bổ sung bút toán điều chỉnh đúng chuẩn kế toán."
+  "🧮 Khắc phục dứt điểm việc Bảng tình hình tài chính và Báo cáo kết quả hoạt động kinh doanh (reports/financial_statements.py) vẫn bỏ sót tài khoản 155 (Thành phẩm) dù danh mục tài khoản hệ thống đã có sẵn từ bản 18.20.0 — nguyên nhân là 2 báo cáo này tự đọc riêng từ bảng 'accounts' trong dữ liệu thay vì dùng đúng danh mục chuẩn của hệ thống, nay đã đồng bộ lại. Đã kiểm tra kỹ để không làm mất bất kỳ tài khoản chi tiết cấp 2 nào đang có trong dữ liệu hiện tại.",
+  "🧮 Báo cáo kết quả hoạt động kinh doanh: doanh thu và chi phí giờ lấy đúng nhóm tài khoản chuẩn (511, 515, 711 cho doanh thu; 611, 621, 627, 632, 635, 641, 642, 811 cho chi phí), tránh trường hợp một tài khoản bị tính lệch nhóm.",
+  "📄 Rà soát và xác nhận lại toàn bộ văn bản pháp lý căn cứ trong module tính thuế hộ kinh doanh (tax_service.py): xác nhận tỷ lệ % thuế theo ngành nghề và ngưỡng miễn thuế 1 tỷ đồng/năm vẫn đúng quy định hiện hành; sửa lại chú thích trong code cho đúng nguồn (không có thay đổi nào về số liệu hay công thức tính thuế)."
   ]
 }
