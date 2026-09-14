@@ -1,13 +1,12 @@
 {
-  "phien_ban_moi_nhat": "18.21.0",
-  "ngay_phat_hanh": "29/07/2026",
+  "phien_ban_moi_nhat": "18.21.1",
+  "ngay_phat_hanh": "14/09/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🧮 Khắc phục dứt điểm việc Bảng tình hình tài chính và Báo cáo kết quả hoạt động kinh doanh (reports/financial_statements.py) vẫn bỏ sót tài khoản 155 (Thành phẩm) dù danh mục tài khoản hệ thống đã có sẵn từ bản 18.20.0 — nguyên nhân là 2 báo cáo này tự đọc riêng từ bảng 'accounts' trong dữ liệu thay vì dùng đúng danh mục chuẩn của hệ thống, nay đã đồng bộ lại. Đã kiểm tra kỹ để không làm mất bất kỳ tài khoản chi tiết cấp 2 nào đang có trong dữ liệu hiện tại.",
-  "🧮 Báo cáo kết quả hoạt động kinh doanh: doanh thu và chi phí giờ lấy đúng nhóm tài khoản chuẩn (511, 515, 711 cho doanh thu; 611, 621, 627, 632, 635, 641, 642, 811 cho chi phí), tránh trường hợp một tài khoản bị tính lệch nhóm.",
-  "📄 Rà soát và xác nhận lại toàn bộ văn bản pháp lý căn cứ trong module tính thuế hộ kinh doanh (tax_service.py): xác nhận tỷ lệ % thuế theo ngành nghề và ngưỡng miễn thuế 1 tỷ đồng/năm vẫn đúng quy định hiện hành; sửa lại chú thích trong code cho đúng nguồn (không có thay đổi nào về số liệu hay công thức tính thuế)."
+  "🔐 Khắc phục lỗi khóa nhầm tính năng bản PRO (bao gồm các hàm xuất báo cáo): khi chạy từ file .exe đã đóng gói, phần mềm tìm license.key theo đường dẫn tương đối nên không đọc được license hợp lệ dù đã mua bản đầy đủ, khiến các tính năng PRO bị khóa nhầm như bản chưa mua. Đã sửa lại dùng đường dẫn tuyệt đối theo đúng vị trí file .exe, đồng thời cố định tên file license.key khi cấp phát để tránh sai lệch tên file license giữa các lần cấp.",
+  "🧹 Rà soát và loại bỏ dữ liệu thật còn sót lại trong bản build phân phối (thư mục cấu hình nội bộ), đảm bảo bản .exe gửi cho khách không kèm theo dữ liệu nội bộ không liên quan."
   ]
 }
