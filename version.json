@@ -1,12 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.21.1",
-  "ngay_phat_hanh": "14/09/2026",
+  "phien_ban_moi_nhat": "18.21.2",
+  "ngay_phat_hanh": "03/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-  "🔐 Khắc phục lỗi khóa nhầm tính năng bản PRO (bao gồm các hàm xuất báo cáo): khi chạy từ file .exe đã đóng gói, phần mềm tìm license.key theo đường dẫn tương đối nên không đọc được license hợp lệ dù đã mua bản đầy đủ, khiến các tính năng PRO bị khóa nhầm như bản chưa mua. Đã sửa lại dùng đường dẫn tuyệt đối theo đúng vị trí file .exe, đồng thời cố định tên file license.key khi cấp phát để tránh sai lệch tên file license giữa các lần cấp.",
-  "🧹 Rà soát và loại bỏ dữ liệu thật còn sót lại trong bản build phân phối (thư mục cấu hình nội bộ), đảm bảo bản .exe gửi cho khách không kèm theo dữ liệu nội bộ không liên quan."
+    "📊 Khắc phục lỗi số liệu giữa các tab Báo cáo không khớp nhau: trước đây tab Tổng quan tính tổng chi từ toàn bộ tài khoản chi phí trong sổ cái (đầu 6 và 8), trong khi các tab Theo danh mục, Theo quý và Theo năm chỉ lấy riêng tài khoản 642, nên thiếu giá vốn hàng bán (632), chi phí sản xuất (621, 622, 627), chi phí bán hàng (641)... Nay cả 4 báo cáo cùng lấy dữ liệu từ sổ cái nên Thu, Chi và Lợi nhuận luôn khớp nhau.",
+    "🧾 Khắc phục lỗi báo cáo Theo quý và Theo năm bỏ sót doanh thu của những hóa đơn có ngày lập không đúng định dạng dd/mm/yyyy (bị bỏ qua âm thầm), đồng thời loại bỏ việc cộng thêm tổng tiền hóa đơn thô vào doanh thu đã có trong sổ cái để tránh đếm trùng.",
+    "🗂️ Báo cáo Theo danh mục nay hiển thị đầy đủ cả các khoản chi tự sinh từ nghiệp vụ (ví dụ Giá vốn hàng bán, Chi phí quản lý) bên cạnh các danh mục do người dùng tự nhập; các danh mục nhập tay vẫn giữ nguyên tên gọi đã chọn."
   ]
 }
