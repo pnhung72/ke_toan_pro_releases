@@ -1,13 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.21.2",
-  "ngay_phat_hanh": "03/10/2026",
+  "phien_ban_moi_nhat": "18.21.3",
+  "ngay_phat_hanh": "04/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "📊 Khắc phục lỗi số liệu giữa các tab Báo cáo không khớp nhau: trước đây tab Tổng quan tính tổng chi từ toàn bộ tài khoản chi phí trong sổ cái (đầu 6 và 8), trong khi các tab Theo danh mục, Theo quý và Theo năm chỉ lấy riêng tài khoản 642, nên thiếu giá vốn hàng bán (632), chi phí sản xuất (621, 622, 627), chi phí bán hàng (641)... Nay cả 4 báo cáo cùng lấy dữ liệu từ sổ cái nên Thu, Chi và Lợi nhuận luôn khớp nhau.",
-    "🧾 Khắc phục lỗi báo cáo Theo quý và Theo năm bỏ sót doanh thu của những hóa đơn có ngày lập không đúng định dạng dd/mm/yyyy (bị bỏ qua âm thầm), đồng thời loại bỏ việc cộng thêm tổng tiền hóa đơn thô vào doanh thu đã có trong sổ cái để tránh đếm trùng.",
-    "🗂️ Báo cáo Theo danh mục nay hiển thị đầy đủ cả các khoản chi tự sinh từ nghiệp vụ (ví dụ Giá vốn hàng bán, Chi phí quản lý) bên cạnh các danh mục do người dùng tự nhập; các danh mục nhập tay vẫn giữ nguyên tên gọi đã chọn."
+    "🛢️ Phân hệ Sản xuất nước mắm truyền thống – Bể ủ chượp: thay ô nhập khối lượng muối bằng ô Tỷ lệ Cá:Muối (ví dụ 3:1, 3,2:1); cột Muối (kg) trong danh sách tự tính từ khối lượng cá và tỷ lệ. Bổ sung chức năng sửa và lưu lại thông tin bể: bấm vào dòng trong danh sách để nạp lên form, chỉnh rồi bấm Cập nhật (trước đây đã nhập thì không sửa được). Có kiểm tra ngày đúng định dạng dd/mm/yyyy và cảnh báo khi cá + muối vượt sức chứa bể.",
+    "🧪 Chiết rút nước mắm cốt và 🍶 Đóng chai & Bán hàng: cho phép sửa và lưu lại từng mẻ chiết rút và từng giao dịch bán. Tồn mẻ tự điều chỉnh theo sản lượng và số lít đã bán, không cho đặt sản lượng thấp hơn số đã bán. Giao dịch đã có mã hóa đơn chỉ sửa được khách hàng và ghi chú để số liệu luôn khớp hóa đơn. Bổ sung ô Ngày bán và Ghi chú khi bán hàng.",
+    "🧮 Tính giá thành chai 500ml: thêm mục Cước vận chuyển thực tế – nhập tổng cước và số kg trên hóa đơn của Viettel Post, GHN, J&T, GHTK để tự tính đ/kg và cước phân bổ cho mỗi chai. Đồng thời sửa lỗi đọc số: các ô nhập số thập phân như 1.5 (năm ủ) trước đây bị hiểu thành 15, nay đọc đúng cả dạng 1.5 và 1,5."
   ]
 }
