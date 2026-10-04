@@ -1,13 +1,14 @@
 {
-  "phien_ban_moi_nhat": "18.22.0",
+  "phien_ban_moi_nhat": "18.23.0",
   "ngay_phat_hanh": "04/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "🛒 Hóa đơn – Đơn sàn thương mại điện tử (Tiki, Shopee, Lazada, Tiktok): khi chọn Nguồn đơn là một sàn, form hiện thêm khối \"Đơn sàn TMĐT\" gồm Mã đơn sàn, Phí sàn, Thuế GTGT và Thuế TNCN sàn khấu trừ hộ. Thuế tự điền theo tỷ lệ 1% GTGT + 0,5% TNCN trên doanh thu (vẫn sửa tay được) và hiển thị ngay số THỰC NHẬN = tiền hàng − phí sàn − thuế sàn khấu trừ. Hình thức thanh toán tự chuyển thành \"Sàn thu hộ\". Ví dụ đơn Tiki 22.000đ, phí 3.850đ, thuế 330đ cho thực nhận 17.820đ.",
-    "📒 Hạch toán đơn sàn tự động và cân bằng Nợ = Có: Nợ 131 (phải thu sàn, đúng số thực nhận), Nợ 641 (phí sàn), Nợ 33311 và 3335 (thuế GTGT, TNCN sàn khấu trừ), Có 511 (doanh thu). Phí sàn tự được tính vào chi phí nên Thu/Chi/Lãi và Báo cáo kết quả kinh doanh phản ánh đúng. Công nợ ghi vào \"Sàn <tên sàn>\" thay vì tên khách; khi sửa hóa đơn sàn, phí và thuế giữ nguyên số đã nhập, thực nhận được tính lại.",
-    "🗄️ Nâng cấp cơ sở dữ liệu lên phiên bản 7: tự động thêm 7 cột đơn sàn vào bảng hóa đơn khi mở phần mềm, chạy lại nhiều lần không lỗi và không làm thay đổi các hóa đơn cũ. Sửa lỗi Nguồn đơn mặc định: trước đây ô Nguồn đơn mặc định là \"Tiktok\" nên hóa đơn mới dễ bị gán nhầm là đơn sàn, nay mặc định là \"Cửa hàng\"; đồng thời bổ sung Shopee vào danh sách Nguồn đơn ở cả form tạo và form sửa."
+    "💰 Báo cáo – tab Thuế: làm mới khung \"Kết quả tính thuế\". Kết quả nay hiển thị thành 5 thẻ nằm ngang gồm Thuế GTGT, Thuế TNCN (hộ KD), Thuế TNDN (doanh nghiệp), Lệ phí môn bài và thẻ TỔNG THUẾ PHẢI NỘP nổi bật. Số tiền có dấu chấm ngăn cách hàng nghìn, khoản bằng 0 hiện màu xám nhạt, có thêm dòng tóm tắt doanh thu – năm – loại hình – ngành nghề đã dùng để tính. Phông chữ theo cấu hình phông chữ chung của phần mềm. Cách tính thuế và số liệu giữ nguyên.",
+    "🐞 Sửa lỗi khung kết quả thuế bị cắt mất dòng \"Tổng thuế phải nộp\" khi cửa sổ không đủ cao, và nhãn lệch trái bỏ trống nửa khung.",
+    "📥 Sửa lỗi \"Xuất Excel tổng hợp\" trong Báo cáo: trước đây file xuất ra thiếu sheet \"Thuế\" mà không báo lỗi; nay sheet Thuế được xuất đầy đủ theo doanh thu, năm, loại hình và ngành nghề đang chọn ở tab Thuế.",
+    "🧹 Dọn mã tab Báo cáo: gộp phần tính thuế về một nơi duy nhất, sửa hai hàm cập nhật doanh thu từ hệ thống và tính thuế vốn bị lỗi khi được gọi, gỡ bảng thuế cũ không còn hiển thị. Không ảnh hưởng dữ liệu đã nhập."
   ]
 }
