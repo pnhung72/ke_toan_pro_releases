@@ -1,14 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.23.0",
-  "ngay_phat_hanh": "04/10/2026",
+  "phien_ban_moi_nhat": "18.23.1",
+  "ngay_phat_hanh": "10/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "💰 Báo cáo – tab Thuế: làm mới khung \"Kết quả tính thuế\". Kết quả nay hiển thị thành 5 thẻ nằm ngang gồm Thuế GTGT, Thuế TNCN (hộ KD), Thuế TNDN (doanh nghiệp), Lệ phí môn bài và thẻ TỔNG THUẾ PHẢI NỘP nổi bật. Số tiền có dấu chấm ngăn cách hàng nghìn, khoản bằng 0 hiện màu xám nhạt, có thêm dòng tóm tắt doanh thu – năm – loại hình – ngành nghề đã dùng để tính. Phông chữ theo cấu hình phông chữ chung của phần mềm. Cách tính thuế và số liệu giữ nguyên.",
-    "🐞 Sửa lỗi khung kết quả thuế bị cắt mất dòng \"Tổng thuế phải nộp\" khi cửa sổ không đủ cao, và nhãn lệch trái bỏ trống nửa khung.",
-    "📥 Sửa lỗi \"Xuất Excel tổng hợp\" trong Báo cáo: trước đây file xuất ra thiếu sheet \"Thuế\" mà không báo lỗi; nay sheet Thuế được xuất đầy đủ theo doanh thu, năm, loại hình và ngành nghề đang chọn ở tab Thuế.",
-    "🧹 Dọn mã tab Báo cáo: gộp phần tính thuế về một nơi duy nhất, sửa hai hàm cập nhật doanh thu từ hệ thống và tính thuế vốn bị lỗi khi được gọi, gỡ bảng thuế cũ không còn hiển thị. Không ảnh hưởng dữ liệu đã nhập."
+    "🖨️ Sửa lỗi không in được hóa đơn: trên một số máy Windows (đặc biệt Windows 11) khi bấm \"In\" xuất hiện thông báo \"Lỗi in – [WinError 1155] No application is associated with the specified file\". Phần mềm nay tự động thử lần lượt nhiều cách in: lệnh in của Windows, rồi Notepad (in thẳng ra máy in mặc định), và cuối cùng là mở trang in trong trình duyệt để bạn chọn máy in.",
+    "🔤 Bản in giữ đúng tiếng Việt có dấu trên mọi cách in.",
+    "🧹 Tự động xóa các file tạm sinh ra khi in (trước đây để lại trong thư mục Temp). Nội dung và bố cục hóa đơn, nhãn, báo cáo giữ nguyên; không ảnh hưởng dữ liệu đã nhập."
   ]
 }
