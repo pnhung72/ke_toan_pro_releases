@@ -1,14 +1,11 @@
 {
-  "phien_ban_moi_nhat": "18.24.0",
-  "ngay_phat_hanh": "16/10/2026",
+  "phien_ban_moi_nhat": "18.25.0",
+  "ngay_phat_hanh": "28/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "🧾 Cập nhật mẫu 01/TKN-CNKD (Thông báo doanh thu) theo Thông tư 89/2026/TT-BTC; riêng kỳ 6 tháng đầu năm 2026 vẫn dùng mẫu theo Thông tư 50/2026/TT-BTC. Hạn nộp thông báo cả năm là 31/01 của năm sau.",
-    "⚖️ Áp dụng ngưỡng doanh thu 1 tỷ đồng/năm (không phải nộp thuế GTGT, TNCN) khi cảnh báo vượt ngưỡng và trong nhãn nhóm đối tượng hộ kinh doanh.",
-    "🔁 Sửa lỗi cộng trùng doanh thu khi cùng một ngày có nhiều hóa đơn cùng số tiền với giao dịch thu. Nay mỗi giao dịch chỉ được ghép với một hóa đơn nên tổng doanh thu chính xác hơn.",
-    "⚠️ Cảnh báo khi có giao dịch thu không khớp hóa đơn nào để bạn kiểm tra đó có phải doanh thu chưa xuất hóa đơn hay không. Tên, địa chỉ hộ kinh doanh có ký tự đặc biệt không còn làm hỏng mẫu in. Dữ liệu đã nhập được giữ nguyên."
+    "🐟 Sản xuất nước mắm → tab Bán hàng: hiển thị ngay dưới bảng lịch sử tổng doanh thu, số đơn và tổng số lít đã bán, tự cập nhật sau mỗi lần bán, sửa hoặc tải lại lịch sử. Dữ liệu đã nhập được giữ nguyên."
   ]
 }
