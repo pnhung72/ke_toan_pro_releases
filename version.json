@@ -1,11 +1,13 @@
 {
-  "phien_ban_moi_nhat": "18.25.0",
+  "phien_ban_moi_nhat": "18.26.0",
   "ngay_phat_hanh": "28/10/2026",
   "link_tai_exe": "https://drive.google.com/uc?export=download&id=1RFAX1HkUmq1AJCX8yhdc8QXKsAEh4qbz",
   "ten_file_exe": "PhanMemKeToan.exe",
   "kich_thuoc_mb": 50,
   "canh_bao_bat_buoc": false,
   "ghi_chu_phien_ban": [
-    "🐟 Sản xuất nước mắm → tab Bán hàng: hiển thị ngay dưới bảng lịch sử tổng doanh thu, số đơn và tổng số lít đã bán, tự cập nhật sau mỗi lần bán, sửa hoặc tải lại lịch sử. Dữ liệu đã nhập được giữ nguyên."
+    "🎯 Tab mới \"Chiến lược nước mắm\" trong Công cụ ▸ 🧩 Tiện ích mở rộng (mặc định ẩn, tick để hiện): xem nhanh doanh thu 12 tháng, tồn kho, tuổi bể, công nợ và các cảnh báo cần xử lý. Tab chỉ đọc dữ liệu, không làm thay đổi sổ sách.",
+    "📝 Nút \"Nhập chi phí bể ủ\": ghi số lít đo, tiền cá, muối, công, phí kho của từng bể để tab Chiến lược tính vốn kẹt, vốn mỗi lít và biên gộp. Dữ liệu cũ được giữ nguyên.",
+    "🛠 Sửa lỗi: menu Chọn ngành nghề không còn đọc sai đường dẫn khi chạy không có thư mục tài nguyên; tab Chiến lược không còn trùng mã với tab Nước mắm gốc."
   ]
 }
